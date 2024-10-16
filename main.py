@@ -84,6 +84,7 @@ def update_uptime_kuma(sites):
                 upsideDown=False,
                 maxredirects=10,
                 accepted_statuscodes=["200-299"],
+                expiryNotification=True,
                 dns_resolve_type="A",
                 dns_resolve_server="1.1.1.1",
                 notificationIDList=[1],
